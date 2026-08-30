@@ -50,7 +50,7 @@ on post-fs-data
 on boot
 # SDHMS Slowdown : Cpuset
     mkdir /dev/cpuset/abnormal
-    write /dev/cpuset/abnormal/cpus 0-2
+    write /dev/cpuset/abnormal/cpus 0-5
     copy /dev/cpuset/mems /dev/cpuset/abnormal/mems
 
     chown system system /dev/cpuset/abnormal
@@ -62,7 +62,7 @@ on boot
     chmod 0664 /dev/cpuset/abnormal/cgroup.procs
 
     mkdir /dev/cpuset/moderate
-    write /dev/cpuset/moderate/cpus 0-2
+    write /dev/cpuset/moderate/cpus 0-5
     copy /dev/cpuset/mems /dev/cpuset/moderate/mems
 
     chown system system /dev/cpuset/moderate
