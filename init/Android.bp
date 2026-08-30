@@ -1,0 +1,11 @@
+//
+// Copyright (C) 2023 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "init.pa2q.rc",
+    src: "init.pa2q.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
