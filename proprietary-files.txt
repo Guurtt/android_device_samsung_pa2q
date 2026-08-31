@@ -2,8 +2,8 @@
 ## are from Samsung Galaxy S25+ (S936BXXSBCZG3)
 
 # ACDB
-vendor/etc/audconf/OPEN/acdb_cal.acdb:vendor/etc/acdbdata/pineapple/acdb_cal.acdb
-vendor/etc/audconf/OPEN/workspaceFileXml.qwsp:vendor/etc/acdbdata/pineapple/workspaceFileXml.qwsp
+vendor/etc/audconf/OPEN/acdb_cal.acdb
+vendor/etc/audconf/OPEN/workspaceFileXml.qwsp
 
 # Audio configs
 vendor/etc/audio/sku_sun/mixer_paths.xml
@@ -65,6 +65,8 @@ vendor/lib64/bm5a79v08s13n03.bin
 vendor/lib64/bm5a79v08s13n04.bin
 vendor/lib64/bm5a79v08s13n06.bin
 vendor/lib64/bm5a79v08s13n07.bin
+vendor/lib64/bm5a79v08s13n08.bin
+vendor/lib64/bm5a79v08s13n09.bin
 vendor/lib64/bm5a79v08s13n12.bin
 vendor/lib64/bm5a79v08s13n13.bin
 vendor/lib64/bm5a79v08s13n14.bin
@@ -108,6 +110,20 @@ vendor/lib64/bm5a79v08s13n59.bin
 vendor/lib64/bm5a79v08s13n60.bin
 vendor/lib64/bm5a79v08s13n61.bin
 vendor/lib64/bm5a79v08s13n62.bin
+vendor/lib64/bm5a79v08s13n63.bin
+vendor/lib64/bm5a79v08s13n64.bin
+vendor/lib64/bm5a79v08s13n65.bin
+vendor/lib64/bm5a79v08s13n66.bin
+vendor/lib64/bm5a79v08s13n67.bin
+vendor/lib64/bm5a79v08s13n68.bin
+vendor/lib64/bm5a79v08s13n69.bin
+vendor/lib64/bm5a79v08s13n70.bin
+vendor/lib64/bm5a79v08s13n71.bin
+vendor/lib64/bm5a79v08s13n72.bin
+vendor/lib64/bm5a79v08s13n73.bin
+vendor/lib64/bm5a79v08s13n74.bin
+vendor/lib64/bm5a79v08s13n75.bin
+vendor/lib64/bm5a79v08s13n76.bin
 
 # Display calibration
 vendor/etc/display/qdcm_calib_data_PA2_S6E3HAF_AMB666FM03.json
@@ -166,17 +182,11 @@ vendor/etc/secnvm/k250a_47000407_c.img
 # Sensor configs
 vendor/etc/sensors/config/akmlib.json
 vendor/etc/sensors/config/json.lst
-vendor/etc/sensors/config/lanai_ak991x_0.json
-vendor/etc/sensors/config/lanai_ak991x_4.json
-vendor/etc/sensors/config/lanai_ak991x_5.json
-vendor/etc/sensors/config/lanai_lps22df_0.json
-vendor/etc/sensors/config/lanai_lps22hh_0.json
-vendor/etc/sensors/config/lanai_lsm6dso_0_0.json
-vendor/etc/sensors/config/lanai_lsm6dsv_0_2.json
-vendor/etc/sensors/config/lanai_stk3af00_0.json
-vendor/etc/sensors/config/lanai_stk3afx_0.json
+vendor/etc/sensors/config/pakala_ak991x_0.json
+vendor/etc/sensors/config/pakala_ak991x_4.json
+vendor/etc/sensors/config/pakala_lps22df_0.json
+vendor/etc/sensors/config/pakala_lsm6dso_0_0.json
 vendor/etc/sensors/config/lsm6dso_0.json
-vendor/etc/sensors/config/lsm6dsv_2.json
 
 # Touchscreen firmware
 vendor/firmware/tsp_synaptics/s3916t_pa2.bin
@@ -188,6 +198,8 @@ vendor/firmware/uwb/libsr200t_prod_fw.so
 # VPU firmware
 vendor/firmware/vpu33_4v.mbn
 vendor/firmware/vpu33_4v_unsigned.mbn
+vendor/firmware/vpu35_4v.mbn
+vendor/firmware/vpu35_4v_unsigned.mbn
 
 # Wi-Fi and Bluetooth firmware
 vendor/firmware/Data.msc
