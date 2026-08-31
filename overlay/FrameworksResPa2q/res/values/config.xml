@@ -29,7 +29,7 @@
 
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
-    <string name="config_mainBuiltInDisplayCutout" translatable="false">M 0,0 H -9.066666666666667 V 29.86666666666667 H 9.066666666666667 V 0 H 0 Z @dp</string>
+    <string name="config_mainBuiltInDisplayCutout" translatable="false">M 0,0 H -9.066666666666667 V 33.6 H 9.066666666666667 V 0 H 0 Z @dp</string>
 
     <!-- Minimum screen brightness setting allowed by power manager.
          -2 is invalid so setting will resort to int value specified above.
@@ -92,73 +92,17 @@
          Must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLevels">
         <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
         <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>25</item>
+        <item>6</item>
         <item>50</item>
         <item>100</item>
-        <item>300</item>
         <item>500</item>
-        <item>1000</item>
-        <item>2000</item>
+        <item>1500</item>
         <item>3000</item>
-        <item>4000</item>
+        <item>4999</item>
         <item>5000</item>
-        <item>6000</item>
-        <item>7000</item>
-        <item>8000</item>
-        <item>9000</item>
-        <item>10000</item>
-        <item>12000</item>
-        <item>50000</item>
-        <item>999999</item>
-    </integer-array>
-
-    <!-- Array of desired screen brightness in nits corresponding to the lux values
-         in the config_autoBrightnessLevels array. The display brightness is defined as the measured
-         brightness of an all-white image.
-
-         If this is defined then:
-            - config_autoBrightnessLcdBacklightValues should not be defined
-            - config_screenBrightnessNits must be defined
-            - config_screenBrightnessBacklight must be defined
-
-         This array should have size one greater than the size of the config_autoBrightnessLevels
-         array. The brightness values must be non-negative and non-decreasing. This must be
-         overridden in platform specific overlays -->
-    <integer-array name="config_autoBrightnessDisplayValuesNits">
-        <item>11</item>
-        <item>15</item>
-        <item>22</item>
-        <item>26</item>
-        <item>31</item>
-        <item>35</item>
-        <item>46</item>
-        <item>62</item>
-        <item>79</item>
-        <item>88</item>
-        <item>93</item>
-        <item>99</item>
-        <item>111</item>
-        <item>130</item>
-        <item>200</item>
-        <item>400</item>
-        <item>600</item>
-        <item>800</item>
-        <item>1000</item>
-        <item>1200</item>
-        <item>1400</item>
-        <item>1600</item>
-        <item>1800</item>
-        <item>2000</item>
-        <item>2450</item>
-        <item>2450</item>
-        <item>2450</item>
+        <item>19999</item>
+        <item>20000</item>
     </integer-array>
 
     <!-- Whether the Unprocessed audio source supports the required frequency range and level -->
