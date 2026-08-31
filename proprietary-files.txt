@@ -90,13 +90,6 @@ vendor/lib64/bm5a79v08s13n50.bin
 vendor/lib64/bm5a79v08s13n51.bin
 vendor/lib64/bm5a79v08s13n54.bin
 vendor/lib64/bm5a79v08s13n55.bin
-vendor/lib64/bm5a79v08s13n56.bin
-vendor/lib64/bm5a79v08s13n57.bin
-vendor/lib64/bm5a79v08s13n58.bin
-vendor/lib64/bm5a79v08s13n59.bin
-vendor/lib64/bm5a79v08s13n60.bin
-vendor/lib64/bm5a79v08s13n61.bin
-vendor/lib64/bm5a79v08s13n62.bin
 vendor/lib64/bm5a79v08s13n63.bin
 vendor/lib64/bm5a79v08s13n64.bin
 vendor/lib64/bm5a79v08s13n65.bin
